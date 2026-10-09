@@ -25,7 +25,7 @@
               }
             ],
             "styles": [
-              "src/styles.css"
+              "src/app/css/styles.css"
             ],
             "server": "src/main.server.ts",
             "outputMode": "server",
@@ -62,6 +62,9 @@
         },
         "serve": {
           "builder": "@angular/build:dev-server",
+          "options": {
+            "allowedHosts": ["localhost", "127.0.0.1", "::1", "[::1]"]
+          },
           "configurations": {
             "production": {
               "buildTarget": "oti-importaciones:build:production"
