@@ -4,8 +4,6 @@
 
 Landing page para un negocio de consultoría en importaciones. Incluye un test interactivo que recomienda un curso o servicio, un catálogo de cursos, una demo de generador de formularios y un flujo de contacto con una función serverless que envía por correo cada contacto junto con el resultado de su test.
 
-**Demo en vivo:** _agregá el enlace después de desplegar_
-
 ## Funcionalidades
 
 - **Test de orientación:** 4 preguntas en 3 pasos, con barra de progreso accesible y manejo del foco. Recomienda un curso o un servicio según las respuestas.
