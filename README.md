@@ -4,8 +4,6 @@
 
 Landing page for an import consulting business. It includes an interactive quiz that recommends a course or service, a course catalog, a form builder demo, and a contact flow powered by a serverless function that emails each lead together with their quiz results.
 
-**Live demo:** _add the link after deploying_
-
 ## Features
 
 - **Orientation quiz:** 4 questions in 3 steps, with an accessible progress bar and focus management. It recommends a course or a service based on the answers.
